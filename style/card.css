@@ -1,0 +1,69 @@
+.cardTitle{
+    flex-grow: 1;
+
+    font-family: 'NunitoBold';
+    font-size: 1.8rem;
+}
+
+.cardText{
+    flex-grow: 1;
+
+    font-family: 'NunitoBold';
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.cardHeader{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.cardP1{ /*Category*/
+    order: 1;
+}
+
+.cardP2{ /*Title*/
+    order: 2;
+}
+
+.cardP3{ /*Puclish Info*/
+    order: 3;
+}
+
+.card{
+    flex-grow: 1;
+    padding: 2.5rem;
+
+    border: 0.2rem solid #1e1e1e;
+    border-radius: 1.5rem;
+
+    background-color: #080808;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    align-self: stretch;
+}
+
+.card:hover{
+    /* box-shadow: 0rem 0rem 1rem #EF233C; */
+    background-color: #151515;
+} 
+
+.cardIncludes{
+    align-self: flex-start;
+    border: 0.2rem solid #1e1e1e;
+    border-radius: 1.5rem;
+}
+
+@media (max-width: 50rem){
+    
+}
