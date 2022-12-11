@@ -40,6 +40,8 @@ body{
     gap: 2.5rem;
 
     align-items: stretch;
+    
+    overflow: hidden;
 }
 
 /*Pill*/
