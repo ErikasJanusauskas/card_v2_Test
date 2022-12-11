@@ -41,7 +41,7 @@ body{
 
     align-items: stretch;
     
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /*Pill*/
